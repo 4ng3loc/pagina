@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(3203855.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    cursor: default;
+}
+
+.header {
+    background-color: #333;
+    height: 50px;
+    color: white;
+    padding: 10px 0;
+    }
+    
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold ;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 45px;
+    margin-right: auto;
+}
+
+nav img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(54, 116, 203);
+}
+
+ 
+.titulo{
+    display: flex;
+    font-size: 45px;
+    color: aliceblue;
+
+}
+
+/*  separador */
+
+.separaror{
+    border: 0;
+    height: 1px;
+    background: #ddd;
+    margin: 20px 0;
+
+}
+
+/*  carrusel de imagenes */
+
+#slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 500px;
+    overflow:hidden;
+    background-color: black;
+}
+
+#slider img{
+    margin: 0 auto;
+    -moz-transition: opacity 2s;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    opacity: 0;
+}
+#slider img:nth-child(1){
+    opacity: 1;
+}
+
+.button-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.nav-button{
+    padding: 5px 10px;
+    font-size: 10px;
+    margin: 0 5px;
+    background-color: transparent;
+    color: #ffffff; 
+    border-color: #ffffff;
+    cursor: pointer;
+
+}
+
+/*  fin carrusel de imagenes */
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: #ffffff;
+
+
+}
+.contenido h2{
+    color: #ffffff;
+}
+.juego{
+    margin: 5px;
+    text-align: justify;
+    backdrop-filter: blur(10px);
+    border: 1px solid #ffffff; 
+    padding: 10px;    
+            
+}
+
+.juego img{
+    width: 100px;
+    height: auto;
+    margin-right: 10px; 
+    float: left;
+
+}
+
+
+
+footer{
+    display: flex;
+    background-color: #333;
+    height: 30px;
+    color: white;
+    padding: 20px 0;
+    align-content: center;
+}
